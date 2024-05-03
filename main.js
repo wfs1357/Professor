@@ -12,4 +12,3 @@ function changeColor() {
 }
 
 setInterval(changeColor, 1000); // Altera a cor a cada segundo
-
