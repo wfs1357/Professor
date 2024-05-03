@@ -1,1 +1,46 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* cor de fundo */
+}
 
+.container {
+  text-align: center;
+}
+
+.centralizado {
+  display: inline-block;
+}
+
+#acrostico {
+  margin-top: 20px;
+}
+
+#acrostico p {
+  font-size: 18px;
+  margin: 5px;
+}
+
+#word {
+  font-family: Arial, sans-serif;
+  font-size: 72px;
+  margin: 30px;
+  color: transparent; /* torna o texto transparente */
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* gradiente de cores do arco-íris */
+  -webkit-background-clip: text; /* clip do texto conforme o gradiente */
+  background-clip: text;
+  animation: rainbow 5s linear infinite alternate; /* animação de alternância de cores */
+}
+
+@keyframes rainbow {
+  0% {
+    filter: hue-rotate(0deg); /* início do gradiente */
+  }
+  100% {
+    filter: hue-rotate(360deg); /* fim do gradiente */
+  }
+}
