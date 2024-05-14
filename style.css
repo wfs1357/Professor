@@ -12,17 +12,14 @@ body, html {
   text-align: center;
 }
 
-.centralizado {
-  display: inline-block;
-}
 
 #acrostico {
-  margin-top: 20px;
+  margin-top: auto;
 }
 
 #acrostico p {
   font-size: 18px;
-  margin: 5px;
+  margin: auto;
 }
 
 #word {
